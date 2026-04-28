@@ -1,10 +1,13 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class mahasiswa
+
+class siswa;
+class orang
 {
 private:
     string nama;
+
 public:
-    friend void setNama (mahasiswa &a, string);
+    friend void setNama (siswa &a, string);
 };
