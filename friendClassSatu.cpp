@@ -9,5 +9,6 @@ private:
     string nama;
 
 public:
-    friend void setNama (siswa &a, string);
+    void setNama(string pNama);
+    friend class siswa;
 };
